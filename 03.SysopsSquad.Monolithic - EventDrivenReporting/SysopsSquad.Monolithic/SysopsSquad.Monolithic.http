@@ -1,0 +1,6 @@
+@SysopsSquad.Monolithic_HostAddress = http://localhost:5102
+
+GET {{SysopsSquad.Monolithic_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
