@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="SysopsSquad.Monolithic/SysopsSquad.Monolithic.csproj" />
+  <Project Path="SysopsSquad.Tests/SysopsSquad.Tests.csproj" Id="2cf40912-79b9-4d6c-8b5d-27167eed20a2" />
+</Solution>
