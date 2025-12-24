@@ -13,25 +13,20 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.1" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.11.10" />
   </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Components\Billing\History\" />
-    <Folder Include="Components\Billing\Payment\" />
-    <Folder Include="Components\Customer\Profile\" />
-    <Folder Include="Components\Customer\Notification\" />
+    <Folder Include="Components\Customers\Notification\" />
     <Folder Include="Components\Expert\Profile\" />
     <Folder Include="Components\KB\Maintenance\" />
     <Folder Include="Components\KB\Search\" />
-    <Folder Include="Components\Survey\Templates\" />
-    <Folder Include="Components\Survey\Notify\" />
+    <Folder Include="Components\Surveies\Templates\" />
     <Folder Include="Components\SupportContract\" />
     <Folder Include="Components\Security\" />
-    <Folder Include="Components\Reporting\" />
-    <Folder Include="Components\Ticket\Assign\" />
-    <Folder Include="Components\Ticket\Route\" />
-    <Folder Include="Components\Ticket\Notify\" />
-    <Folder Include="Data\" />
+    <Folder Include="Components\Tickets\Route\" />
+    <Folder Include="Components\Tickets\Notify\" />
   </ItemGroup>
 
 </Project>
